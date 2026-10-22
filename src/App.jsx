@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 // asks for no CORS permission. Replacing this with a full URL on another host is
 // what turns the same fetch into a cross-origin request.
 const FEED_URL = "/posts.json";
-
+ 
 function PostCard({ post }) {
   return (
     <li className="card">
