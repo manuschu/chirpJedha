@@ -50,7 +50,7 @@ export default function App() {
 
       <ul className="feed">
         {posts.map(function renderPost(post) {
-          return <PostCard key={post.id} post={post} />;
+          return <PostCard key={post.id} post={post}  />;
         })}
       </ul>
     </main>
